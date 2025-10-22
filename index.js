@@ -24,6 +24,7 @@ db.connect(err => {
 const app = express();
 const port = 3000;
 
+
 // 5. [PENTING] Middleware untuk parsing body JSON
 // Ini agar kita bisa membaca req.body saat POST dan PUT
 app.use(express.json());
